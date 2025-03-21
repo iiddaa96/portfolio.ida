@@ -1,0 +1,32 @@
+{
+  "cardData": [
+    {
+      "title": "Canyons",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "description": "Description for Project 1",
+      "image": "https://images.unsplash.com/photo-1479660656269-197ebb83b540?dpr=2&auto=compress,format&fit=crop&w=1199&h=798&q=80&cs=tinysrgb&crop=",
+      "technologies": ["React", "Next.js", "Framer Motion"]
+    },
+    {
+      "title": "Beaches",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "description": "Description for Project 2",
+      "image": "https://images.unsplash.com/photo-1479659929431-4342107adfc1?dpr=2&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=",
+      "technologies": ["TypeScript", "Tailwind CSS"]
+    },
+    {
+      "title": "Trees",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "description": "Description for Project 3",
+      "image": "https://images.unsplash.com/photo-1479644025832-60dabb8be2a1?dpr=2&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=",
+      "technologies": ["JavaScript", "CSS", "HTML"]
+    },
+    {
+      "title": "Lakes",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "description": "Description for Project 4",
+      "image": "https://images.unsplash.com/photo-1479621051492-5a6f9bd9e51a?dpr=2&auto=compress,format&fit=crop&w=1199&h=811&q=80&cs=tinysrgb&crop=",
+      "technologies": ["Node.js", "Express", "MongoDB"]
+    }
+  ]
+}

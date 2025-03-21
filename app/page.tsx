@@ -1,5 +1,12 @@
 import React from "react";
+import CardDisplay from "./components/CardDisplay";
 
-export default function HomePage() {
-  return <div>hej</div>;
-}
+const Homepage: React.FC = () => {
+  return (
+    <div>
+      <CardDisplay />
+    </div>
+  );
+};
+
+export default Homepage;
