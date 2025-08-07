@@ -5,8 +5,7 @@ import "../styles/CardDisplay.css";
 
 const CardDisplay: React.FC = () => {
   return (
-    <div>
-      <h1 className="title">Hover over the cards</h1>
+    <div style={{ paddingTop: "2rem" }}>
       <div className="container">
         {cardData.map((card, index) => (
           <Card

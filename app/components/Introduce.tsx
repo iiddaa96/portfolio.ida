@@ -15,52 +15,55 @@ function Introduce() {
         index++;
       } else {
         clearInterval(interval);
-        setShowFlip(true); // Sätt true när texten är klar
+        setShowFlip(true);
       }
     }, 150);
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <section>
-      <h1
-        style={{
-          fontSize: "100px",
-          margin: 0,
-          fontFamily: "Arial, sans-serif",
-          whiteSpace: "pre",
-          borderRight: "2px solid black",
-          animation: "blink-caret 0.8s steps(1) infinite",
-        }}
-      >
-        {displayedText}
-      </h1>
+    <div>
+      <section>
+        <h1
+          style={{
+            fontSize: "85px",
+            textAlign: "center",
+            margin: "10px",
+            fontFamily: "Arial, sans-serif",
+            whiteSpace: "pre",
+            borderRight: "2px solid black",
+            animation: "blink-caret 0.8s steps(1) infinite",
+          }}
+        >
+          {displayedText}
+        </h1>
 
-      {/* Visa flip-animationen först när namnet är utskrivet */}
-      {showFlip && (
-        <div id="container">
-          <div id="flip">
-            <div>
-              <div>Typescript</div>
-              <div>Next.js</div>
-              <div>Javascript</div>
-              <div>Vite</div>
-              <div>Git</div>
-              <div>React</div>
-              <div>UX</div>
-              <div>API</div>
-              <div>CMS</div>
-              <div>Figma</div>
-              <div>Storybook</div>
-              <div>Html & Css</div>
-              <div>GitHub</div>
-              <div>Prisma</div>
-              <div>MongoDB</div>
+        {/* Visa flip-animationen först när namnet är utskrivet */}
+        {showFlip && (
+          <div style={{ textAlign: "center" }} id="container">
+            <div id="flip">
+              <div>
+                <div>Typescript</div>
+                <div>Next.js</div>
+                <div>Javascript</div>
+                <div>Vite</div>
+                <div>Git</div>
+                <div>React</div>
+                <div>UX</div>
+                <div>API</div>
+                <div>CMS</div>
+                <div>Figma</div>
+                <div>Storybook</div>
+                <div>Html & Css</div>
+                <div>GitHub</div>
+                <div>Prisma</div>
+                <div>MongoDB</div>
+              </div>
             </div>
           </div>
-        </div>
-      )}
-    </section>
+        )}
+      </section>
+    </div>
   );
 }
 
