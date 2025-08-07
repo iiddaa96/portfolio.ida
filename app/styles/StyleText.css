@@ -1,0 +1,34 @@
+#container {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  position: fixed;
+  width: 100%;
+  display: block;
+}
+
+#flip {
+  height: 50px;
+  overflow: hidden;
+}
+
+#flip > div {
+  display: flex;
+  flex-direction: column;
+  animation: scrollWords 26s steps(13) infinite;
+}
+
+#flip > div > div {
+  /* height: 50px; */
+  line-height: 50px;
+  padding: 0 12px;
+}
+
+@keyframes scrollWords {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-650px);
+  }
+}

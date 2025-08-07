@@ -7,7 +7,6 @@ import {
   Menu,
   MenuItem,
   Toolbar,
-  Typography,
   useMediaQuery,
   useTheme,
 } from "@mui/material";
@@ -31,7 +30,7 @@ const Header: React.FC = () => {
     <>
       <AppBar
         sx={{
-          backgroundColor: "#f5e7e3",
+          backgroundColor: "#ffffff",
           fontFamily: "Arial, sans-serif",
           fontWeight: "bold",
           paddingBottom: "3px",
@@ -51,11 +50,11 @@ const Header: React.FC = () => {
               <MenuIcon />
             </IconButton>
           )}
-          <Typography variant="h6" sx={{ flexGrow: 1 }}>
-            <Link href="/" style={{ textDecoration: "none", color: "inherit" }}>
-              I.C
-            </Link>
-          </Typography>
+          {!isMobile && (
+            <Button color="inherit" href="/" sx={{ mr: 2 }}>
+              Home
+            </Button>
+          )}
           {!isMobile && (
             <>
               <Button color="inherit" href="#about">
@@ -86,6 +85,9 @@ const Header: React.FC = () => {
         open={Boolean(anchorElNav)}
         onClose={handleCloseNavMenu}
       >
+        <MenuItem onClick={handleCloseNavMenu} component={Link} href="#home">
+          Home
+        </MenuItem>
         <MenuItem onClick={handleCloseNavMenu} component={Link} href="#about">
           About
         </MenuItem>

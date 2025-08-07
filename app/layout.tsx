@@ -8,7 +8,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body style={{ backgroundColor: "#FCF5F3" }}>
+      <body>
         <div
           style={{
             position: "sticky",
