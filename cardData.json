@@ -2,38 +2,61 @@
   "cardData": [
     {
       "title": "Milk Mayhem",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-      "description": "Description for Project 1",
+      "content": "Dive into a chaotic maze adventure where you guide a fearless baby on a race against time to collect formula, dodge hazards, and reach the exit before the clock runs out!",
+      "description": "A fast-paced maze game where you guide a baby to collect formula, avoid beer bottles, freeze time with clocks, and reach the exit within 60 seconds to advance or replay for a higher score.",
       "image": "/milkmayhem.png",
-      "technologies": ["React", "Next.js", "Framer Motion"]
+      "technologies": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Mui",
+        "P5.js",
+        "OOP",
+        "Adobe Photoshop",
+        "Figma"
+      ]
     },
     {
       "title": "Luxe",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-      "description": "Description for Project 2",
+      "content": "Luxe is a makeup product website with tutorials, offering a seamless shopping experience and admin-only product management, built with React, Next.js, and Material-UI.",
+      "description": "This is a product website called Luxe that sells makeup and provides tutorials to help users create the best makeup looks tailored to their individual preferences. The platform is designed from a company's perspective where only administrators can add or remove products. It features a user-friendly shopping experience a library of tutorials for all skill levels and an admin dashboard for product management. Built with React, Next.js, and Material-UI it offers responsive design and seamless functionality.",
       "image": "/luxe.png",
-      "technologies": ["TypeScript", "Tailwind CSS"]
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "MUI",
+        "NanoId",
+        "Zod",
+        "LocalStorage",
+        "React-hook-form",
+        "Prisma",
+        "SQL",
+        "Neon",
+        "Prisma ORM",
+        "PostgreSQL"
+      ]
     },
     {
       "title": "Calendar",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-      "description": "Description for Project 3",
+      "content": "Calendar MJI is a school project where users can easily create, edit and delete to-dos within a simple and intuitive calendar interface.",
+      "description": "Calendar MJI is a school project where we developed a calendar application that allows users to create, edit, and delete to-dos directly within the calendar interface. The goal was to build a simple and intuitive tool for managing daily tasks. The project focuses on core CRUD functionality and provides a clean, user-friendly design for efficient task planning.",
       "image": "/calendar.png",
-      "technologies": ["JavaScript", "CSS", "HTML"]
+      "technologies": ["Javascript", "Vite", "Mui", "CSS", "React"]
     },
     {
       "title": "Netflix",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-      "description": "Description for Project 4",
+      "content": "Netflix-2.0 is a Next.js and React-based streaming app clone that uses MongoDB to manage and display video content with a sleek, responsive interface.",
+      "description": "This project is a replica of Netflix a popular streaming service. Built using Next.js, React, TypeScript, and Material-UI. It aims to mimic the user interface and functionality of Netflix, providing a familiar experience for users.",
       "image": "/netflix.png",
-      "technologies": ["Node.js", "Express", "MongoDB"]
+      "technologies": ["Next.js", "React", "TypeScript", "Mui", "MongoDB"]
     },
     {
       "title": "Boat",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-      "description": "Description for Project 4",
+      "content": "I have created a graphic profile and based on it created a wireframe and a mockup. In this task, I will implement everything in code. In this case html and css code.",
+      "description": "My application is that I sell sailing trips around Europe. My made-up company is called Casperson boat, with the slogan it's a lifestyle.",
       "image": "/boat.png",
-      "technologies": ["Node.js", "Express", "MongoDB"]
+      "technologies": ["HTML", "CSS"]
     }
   ]
 }
